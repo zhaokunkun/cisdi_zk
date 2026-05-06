@@ -1,0 +1,33 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Build
+target/
+build/
+*.class
+*.jar
+*.war
+
+# Logs
+*.log
+
+# Sensitive configs
+**/tenancy.yml
+**/application-local.yml
+**/application-dev.yml
+
+# Maven wrapper (no need to version)
+.mvn/
+
+# Node
+node_modules/
+
+# Codebuddy
+.codebuddy/
